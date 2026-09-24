@@ -10,7 +10,7 @@ def test_contar_caracteres():
 
 
 def test_contar_vocales():
-    assert contar_vocales("Hola") == 3
+    assert contar_vocales("Hola") == 2
 
 def test_contar_lineas():
     assert contar_lineas("Hola\nMundo") == 2    
